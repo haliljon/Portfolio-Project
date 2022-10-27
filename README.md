@@ -3,7 +3,7 @@
 # Portfolio-Project
 
 > In this project, I was able to:
-
+>
 > - to parse a Figma design to create a UI.
 > - to use Flexbox to place elements in the page.
 > - to build a personal portfolio site.
