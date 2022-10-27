@@ -29,6 +29,7 @@ body {
   padding: 0 2.8rem;
   text-align: center;
   background-image: url("/header-illsutration-mobile@2x.svg");
+  background-repeat: no-repeat;
 }
 
 .primary {
