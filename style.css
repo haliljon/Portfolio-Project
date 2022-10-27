@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 8rem;
-  padding: 0 3.2rem;
+  padding: 0 0 0 3.2rem;
   font-size: 150%;
 }
 .section-home {
@@ -61,4 +61,19 @@ body {
 .arrow-icon {
   text-align: center;
   margin: auto;
+}
+.menu-btn {
+  padding: 0 30px;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+a:link,
+a:visited {
+  color: #555;
+}
+
+a:hover,
+a:active {
+  color: #36b37fba;
+  transition: 0.3s;
 }
