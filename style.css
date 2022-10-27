@@ -35,7 +35,8 @@ body {
 
 .primary {
   padding: 6rem 0;
-  font-size: 250%;
+  font-size: 245%;
+  font-weight: bolder;
 }
 
 .heading-primary2 {
