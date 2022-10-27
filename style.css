@@ -5,14 +5,16 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   background: #fff;
 }
 
-/*/* HEADER*/
+/* /* HEADER */
 .nav-container {
   display: flex;
   list-style: none;
@@ -22,26 +24,31 @@ body {
   padding: 0 0 0 3.2rem;
   font-size: 150%;
 }
+
 .section-home {
   padding: 0 2.8rem;
   text-align: center;
   background-image: url("/header-illsutration-mobile@2x.svg");
 }
+
 .primary {
   padding: 6rem 0;
   font-size: 250%;
 }
+
 .heading-primary2 {
   color: #36b37f;
 }
+
 .supporting {
   font-size: 215%;
 }
+
 .heading-primary {
   padding: 0 0 1.5rem 0;
 }
 
-/*/* ICONS*/
+/* /* ICONS */
 
 .icons {
   display: flex;
@@ -50,6 +57,7 @@ body {
   padding: 2rem;
   margin-top: 4rem;
 }
+
 .down-arrow {
   display: block;
   margin: auto;
@@ -58,15 +66,18 @@ body {
   width: 1.5rem;
   height: 1.5rem;
 }
+
 .arrow-icon {
   text-align: center;
   margin: auto;
 }
+
 .menu-btn {
   padding: 0 30px;
   text-decoration: none;
   transition-duration: 1s;
 }
+
 a:link,
 a:visited {
   color: #555;
