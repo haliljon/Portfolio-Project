@@ -44,7 +44,11 @@ body {
 }
 
 .supporting {
-  font-size: 215%;
+  font-size: 2rem;
+}
+.supporting p {
+  line-height: 2.8rem;
+  font-weight: 400;
 }
 
 .heading-primary {
