@@ -123,13 +123,14 @@ a:active {
   background-color: #fff;
   align-items: center;
   border: 1px solid #d0d9d4;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
-.multi-post{
+.multi-post {
   font-weight: 550;
   font-size: 2.4rem;
 }
+
 .picture {
   width: 327px;
   height: 222px;
@@ -301,13 +302,13 @@ input[type="email"]::placeholder {
   text-align: left;
 }
 
-#text{
+#text {
   text-align: left;
   height: 11.4rem;
 }
-.email{
+
+.email {
   font-size: 2rem;
   height: 18.9rem;
   font-weight: 400;
-
 }
