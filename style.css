@@ -67,15 +67,6 @@ body {
   margin-top: 4rem;
 }
 
-.down-arrow {
-  display: grid;
-  margin: auto;
-  border: 0.1rem solid rgba(0, 0, 0, 0.157);
-  border-radius: 2rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
 .menu-btn {
   padding: 0 30px;
   text-decoration: none;
@@ -132,8 +123,13 @@ a:active {
   background-color: #fff;
   align-items: center;
   border: 1px solid #d0d9d4;
+  color: #3A4A42;
 }
 
+.multi-post{
+  font-weight: 550;
+  font-size: 2.4rem;
+}
 .picture {
   width: 327px;
   height: 222px;
@@ -287,6 +283,7 @@ a:active {
 
 input {
   margin: 1.2rem 0;
+  text-align: left;
 }
 
 #fullname,
@@ -304,6 +301,13 @@ input[type="email"]::placeholder {
   text-align: left;
 }
 
-#text {
+#text{
+  text-align: left;
   height: 11.4rem;
+}
+.email{
+  font-size: 2rem;
+  height: 18.9rem;
+  font-weight: 400;
+
 }
