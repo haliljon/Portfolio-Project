@@ -4,6 +4,7 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 html {
@@ -12,6 +13,7 @@ html {
 
 body {
   background: #fff;
+  color: #172b4d;
 }
 
 /* /* HEADER */
@@ -27,10 +29,8 @@ body {
 
 .section-home {
   padding: 0 2.8rem;
-  text-align: center;
   background-image: url("/header-illsutration-mobile@2x.svg");
   background-size: cover;
-  color: #172b4d;
 }
 
 .primary {
@@ -63,22 +63,8 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 200%;
-  padding: 2rem 5rem;
+  padding: 2rem 5rem 8rem 5rem;
   margin-top: 4rem;
-}
-
-.down-arrow {
-  display: block;
-  margin: auto;
-  border: 0.1rem solid rgba(0, 0, 0, 0.157);
-  border-radius: 2rem;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.arrow-icon {
-  text-align: center;
-  margin: auto;
 }
 
 .menu-btn {
@@ -96,4 +82,233 @@ a:hover,
 a:active {
   color: #36b37fba;
   transition: 0.3s;
+}
+
+/* /* Works */
+
+.recent-work,
+.text-contact {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  padding: 2.4rem 0;
+}
+
+.works {
+  padding: 0 2.4rem;
+}
+
+.hr {
+  margin: 0 13.95rem 3.8rem 13.95rem;
+  width: 4.8rem;
+  border: 0.2rem solid #36b37f;
+}
+
+.outer-grid {
+  display: grid;
+  height: 44.4rem;
+  border-radius: 8px;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+  background: #ebf0ee;
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.outer-container {
+  display: grid;
+  width: 327px;
+  height: 222px;
+  background-color: #fff;
+  align-items: center;
+  border: 1px solid #d0d9d4;
+  color: #3a4a42;
+}
+
+.multi-post {
+  font-weight: 550;
+  font-size: 2.4rem;
+}
+
+.picture {
+  width: 327px;
+  height: 222px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1.1rem;
+  list-style: none;
+}
+
+.flex-items {
+  border: 0.1rem solid #ebf0ee;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 0.8rem 1.2rem;
+  background: #ebf0ee;
+  border-radius: 0.4rem;
+}
+
+.btn-see-project {
+  display: flex;
+  background: #36b37f;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  margin: 1.4rem 10.2rem;
+  height: 100%;
+}
+
+.my-resume {
+  display: flex;
+  justify-content: center;
+  background: #36b37f;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  margin: 1.2rem 8rem 4.7rem 8rem;
+  height: 100%;
+}
+
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  background: #36b37f;
+  border-radius: 0.4rem;
+  padding: 1.2rem 0;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  margin: 1.2rem 13rem 4.7rem 13rem;
+  height: 100%;
+}
+
+.btn-see-project:link,
+.my-resume:link,
+.get-in-touch:link,
+.btn-see-project:visited,
+.get-in-touch:visited,
+.my-resume:visited {
+  color: #fff;
+}
+
+.btn-see-project:hover,
+.get-in-touch:hover,
+.my-resume:hover,
+.btn-see-project:active,
+.get-in-touch:active,
+.my-resume:active {
+  color: #36b37f;
+  background: #fff;
+  transition: 0.3s;
+  border: 0.1rem solid #36b37f;
+  border-radius: 0.4rem;
+}
+
+/* /* About myself */
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  margin: 6.8rem 2.4rem 0 2.4rem;
+}
+
+.heading-about-me {
+  font-size: 4rem;
+  line-height: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.about-me {
+  background-image: url(/illustration-\ about\ me-\ mobile-new.png);
+  background-size: cover;
+}
+
+.about {
+  margin: 1.2rem;
+}
+
+.languages {
+  display: grid;
+  height: 35.2rem;
+  border-radius: 8px;
+  background: #ebf0ee;
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+.icon-language {
+  margin-top: 4rem;
+}
+
+.icon-div {
+  height: 14.4rem;
+}
+
+.text-languages {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+  height: 3.2rem;
+  vertical-align: top;
+}
+
+.languages-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: center;
+  margin: 0 0 2.4rem 0;
+  height: 4rem;
+  list-style: none;
+}
+
+.flex-languages {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 1.2rem 1.2rem;
+  background: #fff;
+  border-radius: 0.4rem;
+  color: #36b37f;
+}
+
+.text-contact {
+  margin: 2.4rem;
+}
+
+input {
+  margin: 1.2rem 0;
+  text-align: left;
+}
+
+#fullname,
+#email,
+#text {
+  width: 32.7rem;
+  height: 4.8rem;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 1.5rem 1.6rem;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  text-align: left;
+}
+
+#text {
+  text-align: left;
+  height: 11.4rem;
+}
+
+.email {
+  font-size: 2rem;
+  height: 18.9rem;
+  font-weight: 400;
 }
