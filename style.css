@@ -184,8 +184,11 @@ a:active {
   padding: 1.2rem 0;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  margin: 1.2rem 13rem 4.7rem 13rem;
-  height: 100%;
+  margin: 7rem 13rem 4.7rem 13rem;
+  width: 12.9rem;
+  height: 4.8rem;
+  color: #fff;
+  border-style: none;
 }
 
 .btn-see-project:link,
