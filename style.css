@@ -176,18 +176,6 @@ a:active {
   height: 100%;
 }
 
-.get-in-touch {
-  display: flex;
-  justify-content: center;
-  background: #36b37f;
-  border-radius: 0.4rem;
-  padding: 1.2rem 0;
-  font-size: 1.7rem;
-  line-height: 2.4rem;
-  margin: 1.2rem 13rem 4.7rem 13rem;
-  height: 100%;
-}
-
 .btn-see-project:link,
 .my-resume:link,
 .get-in-touch:link,
@@ -208,6 +196,21 @@ a:active {
   transition: 0.3s;
   border: 0.1rem solid #36b37f;
   border-radius: 0.4rem;
+}
+
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  background: #36b37f;
+  border-radius: 0.4rem;
+  padding: 1.2rem 0;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  margin: 7rem 13rem 4.7rem 13rem;
+  width: 12.9rem;
+  height: 4.8rem;
+  color: #fff;
+  border-style: none;
 }
 
 /* /* About myself */
