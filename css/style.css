@@ -72,8 +72,9 @@ body {
   text-decoration: none;
   transition-duration: 1s;
 }
-.nav-bar{
-  visibility:hidden;
+
+.nav-bar {
+  visibility: hidden;
 }
 
 a:link,
@@ -317,6 +318,7 @@ input[type="email"]::placeholder {
   height: 18.9rem;
   font-weight: 400;
 }
-.hr-footer{
+
+.hr-footer {
   visibility: hidden;
 }
