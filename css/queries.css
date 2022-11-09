@@ -1,0 +1,127 @@
+/* Media queries */
+@media (min-width: 48em){
+    .all{
+        background-image: url("/Header-llustration-desktop.svg");
+        background-size: cover;
+    }
+    .section-home {
+      padding: 15rem 0 40rem 0;
+      background-image: none;
+    }
+    .primary{
+        font-size: 3.6rem;
+        line-height: 6rem;
+        font-weight: 800;
+        width: 63.89%;
+        margin: auto;
+    }
+    .supporting {
+        width: 63.8%;
+        margin: auto;
+        line-height: 3.8rem;
+      }
+    .icons{
+        display: flex;
+        justify-content: center;
+        width: 63.8%;
+        margin: auto;
+        gap: 2rem;
+    }
+    .link,
+    .menu-btn{
+        visibility: hidden;
+    }
+    .nav-bar ul{
+        visibility: visible;
+        display: flex;
+        gap: 3.2rem;
+        list-style: none;
+    }
+    .nav-list{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .hr{
+        visibility: hidden;
+    }
+    .outer-grids{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2.4rem;
+        margin: 0 142px;
+    }
+    .outer-container{
+        width: 100%;
+    }
+    .flex-container{
+        display: flex;
+        gap: 8px;
+    }
+    .flex-container-div{
+        margin: auto;
+    }
+    .btn-see-project{
+        justify-content: center;
+    }
+    .about-me {
+        background-image: url(/illustration\ about\ me\ desktop.svg);
+        background-size:cover;
+        
+    }
+    .heading-about-me{
+        margin-top: 150px;
+    }
+    .about{
+        width: 66%;
+        margin: auto;
+        padding: 12px 0;
+    }
+    .my-resume{
+        width: 11%;
+        height: auto;
+        margin: auto auto 52px auto;
+    }
+    .language-container{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        gap: 24px;
+        margin: 0 142px;
+    }
+    .contact-us-div{
+        display: grid;
+        grid-template-columns: 39.6% 58.5%;
+        gap: 24px;
+        margin: 0 135px;
+    }
+    .text-contact{
+        font-size: 30px;
+    }
+    .name-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+    .submit-btn{
+        text-align: left;
+    }
+    .email{
+        visibility: hidden;
+        height: 0;
+    }
+    .footer{
+        height: 56px;
+        width: 100%;
+    }
+    .hr-footer{
+        visibility: visible;
+    }
+    #firstname,
+    #lastname,
+    #email,
+    #text {
+        width: 100%;}
+  }

@@ -72,6 +72,9 @@ body {
   text-decoration: none;
   transition-duration: 1s;
 }
+.nav-bar{
+  visibility:hidden;
+}
 
 a:link,
 a:visited {
@@ -132,19 +135,17 @@ a:active {
 }
 
 .picture {
-  width: 327px;
+  width: 100%;
   height: 222px;
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   padding: 0 1.1rem;
   list-style: none;
 }
 
 .flex-items {
+  float: left;
   border: 0.1rem solid #ebf0ee;
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -290,10 +291,11 @@ input {
   text-align: left;
 }
 
-#fullname,
+#firstname,
+#lastname,
 #email,
 #text {
-  width: 32.7rem;
+  width: 87.2%;
   height: 4.8rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -314,4 +316,7 @@ input[type="email"]::placeholder {
   font-size: 2rem;
   height: 18.9rem;
   font-weight: 400;
+}
+.hr-footer{
+  visibility: hidden;
 }
