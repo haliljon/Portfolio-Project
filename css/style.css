@@ -29,7 +29,7 @@ body {
 
 .section-home {
   padding: 0 2.8rem;
-  background-image: url("/header-illsutration-mobile@2x.svg");
+  background-image: url("/image/header-illsutration-mobile@2x.svg");
   background-size: cover;
 }
 
@@ -98,18 +98,24 @@ a:active {
   padding: 2.4rem 0;
 }
 
-.works {
-  padding: 0 2.4rem;
+.recent-work {
+  text-align: center;
 }
 
+/* .works {
+  padding: 0 2.4rem;
+} */
+
 .hr {
-  margin: 0 13.95rem 3.8rem 13.95rem;
+  margin: auto;
   width: 4.8rem;
   border: 0.2rem solid #36b37f;
 }
 
 .outer-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   height: 44.4rem;
   border-radius: 8px;
   font-size: 2rem;
@@ -122,8 +128,9 @@ a:active {
 
 .outer-container {
   display: grid;
-  width: 327px;
+  width: 100%;
   height: 222px;
+  justify-content: center;
   background-color: #fff;
   align-items: center;
   border: 1px solid #d0d9d4;
@@ -140,8 +147,13 @@ a:active {
   height: 222px;
 }
 
+.flex-container-div {
+  margin: auto;
+}
+
 .flex-container {
-  padding: 0 1.1rem;
+  display: flex;
+  gap: 8px;
   list-style: none;
 }
 
@@ -157,6 +169,7 @@ a:active {
 
 .btn-see-project {
   display: flex;
+  width: 122px;
   background: #36b37f;
   border-radius: 0.4rem;
   padding: 1.2rem;
@@ -174,8 +187,9 @@ a:active {
   padding: 1.2rem;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  margin: 1.2rem 8rem 4.7rem 8rem;
+  margin: auto;
   height: 100%;
+  width: 159px;
 }
 
 .get-in-touch {
@@ -230,7 +244,7 @@ a:active {
 }
 
 .about-me {
-  background-image: url(/illustration-\ about\ me-\ mobile-new.png);
+  background-image: url("/image/illustration-about-me-mobile-new.png");
   background-size: cover;
 }
 

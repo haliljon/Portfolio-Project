@@ -8,7 +8,7 @@
 > - to use Flexbox to place elements in the page.
 > - to build a personal portfolio site.
 > - to use images and backgrounds to enhance the look of the website.
-> - to use Media queries
+> - to use Media queries (breakpoints are `width:768px` and `width:1100px`)
 > - to use Grid, Flexbox and Float
 
 ## Built With
