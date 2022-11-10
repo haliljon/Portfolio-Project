@@ -102,9 +102,9 @@ a:active {
   text-align: center;
 }
 
-/* .works {
-  padding: 0 2.4rem;
-} */
+.works {
+  margin: 0 24px;
+}
 
 .hr {
   margin: auto;
@@ -127,7 +127,8 @@ a:active {
 }
 
 .outer-container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 222px;
   justify-content: center;
@@ -153,7 +154,11 @@ a:active {
 
 .flex-container {
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.8rem;
+  justify-content: center;
+  height: 40px;
   list-style: none;
 }
 
@@ -176,7 +181,7 @@ a:active {
   font-size: 1.7rem;
   line-height: 2.4rem;
   margin: 1.4rem 10.2rem;
-  height: 100%;
+  height: 48px;
 }
 
 .my-resume {
@@ -200,11 +205,14 @@ a:active {
   padding: 1.2rem 0;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  margin: 7rem 13rem 4.7rem 13rem;
+  margin: 24px auto;
   width: 12.9rem;
-  height: 4.8rem;
+  height: auto;
   color: #fff;
   border-style: none;
+}
+.submit-btn {
+  align-items: center;
 }
 
 .btn-see-project:link,
