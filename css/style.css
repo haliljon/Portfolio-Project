@@ -29,7 +29,7 @@ body {
 
 .section-home {
   padding: 0 2.8rem;
-  background-image: url("/image/header-illsutration-mobile@2x.svg");
+  background-image: url("../image/header-illsutration-mobile@2x.svg");
   background-size: cover;
 }
 
@@ -253,7 +253,7 @@ a:active {
 }
 
 .about-me {
-  background-image: url("/image/illustration-about-me-mobile-new.png");
+  background-image: url("../image/illustration-about-me-mobile-new.png");
   background-size: cover;
 }
 
