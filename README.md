@@ -23,10 +23,13 @@
 
 To get a local copy up and running follow these simple example steps. Copy the following link to the repository: https://github.com/haliljon/Portfolio-Project.git
 
+- clone the repo: `git clone <repos link>` and then `cd <repos_name>`
+
 ### Prerequisites
 
 - Have a computer and internet connection
 - Have `visual-studio code` or any other code editor installed on your computer.
+
 
 ## Authors
 
