@@ -67,6 +67,17 @@ body {
   margin-top: 4rem;
 }
 
+.down-arrow:hover {
+  transform: rotate(-180deg);
+  transition-duration: 2s;
+}
+
+.nav-list:hover,
+.icon-items:hover {
+  transform: scale(1.5);
+  transition-duration: 1.5s;
+}
+
 .menu-btn {
   padding: 0 30px;
   text-decoration: none;
