@@ -31,7 +31,13 @@
     margin: auto;
     gap: 2rem;
   }
-
+  .icons-item1:hover,
+  .icons-item2:hover,
+  .icons-item3:hover,
+  .icons-item4:hover,
+  .icons-item5:hover {
+    transform: scale(1.5);
+  }
   .link,
   .menu-btn {
     visibility: hidden;
