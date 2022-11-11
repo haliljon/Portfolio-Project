@@ -1,0 +1,183 @@
+/* Media queries */
+@media (min-width: 768px) {
+  .all {
+    background-image: url("../image/Header-llustration-desktop.svg");
+    background-size: 100%;
+  }
+
+  .section-home {
+    padding: 0 0 20rem 0;
+    background-image: none;
+    width: 63.89%;
+    margin: auto;
+  }
+
+  .primary {
+    font-size: 3.6rem;
+    line-height: 6rem;
+    font-weight: 800;
+  }
+
+  .supporting {
+    width: 63.8%;
+    margin: auto;
+    line-height: 3.8rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    width: 63.8%;
+    margin: auto;
+    gap: 2rem;
+  }
+
+  .link,
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .nav-bar ul {
+    visibility: visible;
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+  }
+
+  .nav-list {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .hr {
+    visibility: hidden;
+  }
+
+  .outer-grids {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 2.4rem;
+    margin: 0 120px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .flex-container-div {
+    margin: auto;
+  }
+
+  .btn-see-project {
+    justify-content: center;
+  }
+
+  .about-me {
+    background-image: url("../image/about-me-desktop.svg");
+    background-size: cover;
+  }
+
+  .heading-about-me {
+    margin-top: 150px;
+  }
+
+  .about {
+    width: 66%;
+    margin: auto;
+    padding: 12px 0;
+  }
+
+  .my-resume {
+    width: 159px;
+    height: auto;
+    margin: auto auto 52px auto;
+  }
+
+  .language-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 24px;
+    margin: 0 120px;
+  }
+
+  .contact-us-div {
+    display: grid;
+    grid-template-columns: 39.6% 58.5%;
+    gap: 24px;
+    margin: 0 115px;
+  }
+
+  .text-contact {
+    font-size: 30px;
+  }
+
+  .name-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submit-btn {
+    text-align: left;
+  }
+
+  .get-in-touch {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .email {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .footer {
+    height: 56px;
+    width: 100%;
+  }
+
+  .hr-footer {
+    visibility: visible;
+  }
+
+  #firstname,
+  #lastname,
+  #email,
+  #text {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .outer-grids {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 24px;
+    margin: 0 142px;
+  }
+
+  .language-container {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 24px;
+    margin: 0 142px;
+  }
+
+  .contact-us-div {
+    margin: 0 135px;
+  }
+
+  .flex-container {
+    margin-bottom: 10px;
+  }
+}

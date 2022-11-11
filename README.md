@@ -8,6 +8,8 @@
 > - to use Flexbox to place elements in the page.
 > - to build a personal portfolio site.
 > - to use images and backgrounds to enhance the look of the website.
+> - to use Media queries (breakpoints are `width:768px` and `width:1100px`)
+> - to use Grid, Flexbox and Float
 
 ## Built With
 
@@ -21,10 +23,13 @@
 
 To get a local copy up and running follow these simple example steps. Copy the following link to the repository: https://github.com/haliljon/Portfolio-Project.git
 
+- clone the repo: `git clone <repos link>` and then `cd <repos_name>`
+
 ### Prerequisites
 
 - Have a computer and internet connection
 - Have `visual-studio code` or any other code editor installed on your computer.
+
 
 ## Authors
 

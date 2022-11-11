@@ -29,7 +29,7 @@ body {
 
 .section-home {
   padding: 0 2.8rem;
-  background-image: url("/header-illsutration-mobile@2x.svg");
+  background-image: url("../image/header-illsutration-mobile@2x.svg");
   background-size: cover;
 }
 
@@ -73,6 +73,10 @@ body {
   transition-duration: 1s;
 }
 
+.nav-bar {
+  visibility: hidden;
+}
+
 a:link,
 a:visited {
   color: #555;
@@ -94,18 +98,24 @@ a:active {
   padding: 2.4rem 0;
 }
 
+.recent-work {
+  text-align: center;
+}
+
 .works {
-  padding: 0 2.4rem;
+  margin: 0 24px;
 }
 
 .hr {
-  margin: 0 13.95rem 3.8rem 13.95rem;
+  margin: auto;
   width: 4.8rem;
   border: 0.2rem solid #36b37f;
 }
 
 .outer-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   height: 44.4rem;
   border-radius: 8px;
   font-size: 2rem;
@@ -117,9 +127,11 @@ a:active {
 }
 
 .outer-container {
-  display: grid;
-  width: 327px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   height: 222px;
+  justify-content: center;
   background-color: #fff;
   align-items: center;
   border: 1px solid #d0d9d4;
@@ -132,19 +144,26 @@ a:active {
 }
 
 .picture {
-  width: 327px;
+  width: 100%;
   height: 222px;
+}
+
+.flex-container-div {
+  margin: auto;
 }
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0 1.1rem;
+  gap: 0.8rem;
+  justify-content: center;
+  height: 40px;
   list-style: none;
 }
 
 .flex-items {
+  float: left;
   border: 0.1rem solid #ebf0ee;
   font-size: 1.2rem;
   line-height: 1.6rem;
@@ -155,13 +174,14 @@ a:active {
 
 .btn-see-project {
   display: flex;
+  width: 122px;
   background: #36b37f;
   border-radius: 0.4rem;
   padding: 1.2rem;
   font-size: 1.7rem;
   line-height: 2.4rem;
   margin: 1.4rem 10.2rem;
-  height: 100%;
+  height: 48px;
 }
 
 .my-resume {
@@ -172,8 +192,9 @@ a:active {
   padding: 1.2rem;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  margin: 1.2rem 8rem 4.7rem 8rem;
+  margin: auto;
   height: 100%;
+  width: 159px;
 }
 
 .get-in-touch {
@@ -184,11 +205,15 @@ a:active {
   padding: 1.2rem 0;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  margin: 7rem 13rem 4.7rem 13rem;
+  margin: 24px auto;
   width: 12.9rem;
-  height: 4.8rem;
+  height: auto;
   color: #fff;
   border-style: none;
+}
+
+.submit-btn {
+  align-items: center;
 }
 
 .btn-see-project:link,
@@ -228,7 +253,7 @@ a:active {
 }
 
 .about-me {
-  background-image: url(/illustration-\ about\ me-\ mobile-new.png);
+  background-image: url("../image/illustration-about-me-mobile-new.png");
   background-size: cover;
 }
 
@@ -290,10 +315,11 @@ input {
   text-align: left;
 }
 
-#fullname,
+#firstname,
+#lastname,
 #email,
 #text {
-  width: 32.7rem;
+  width: 87.2%;
   height: 4.8rem;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -314,4 +340,8 @@ input[type="email"]::placeholder {
   font-size: 2rem;
   height: 18.9rem;
   font-weight: 400;
+}
+
+.hr-footer {
+  visibility: hidden;
 }
