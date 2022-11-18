@@ -15,6 +15,10 @@
 - Technologies: Git, Gitflow, Linters, Github
 - Frameworks: Ionic
 
+## Presentation
+
+[Loom demo video](https://www.loom.com/share/6bb39d138660410b823144f5ba9fe644)
+
 ## Getting Started
 
 ---
