@@ -11,22 +11,35 @@
   <body>
     <div class="all">
     <header class="header">
-      <div class="container">
+      <div id="menu" class="container">
+        <div>
+          <a href="javascript:closeMenu()" id="close-btn"><ion-icon name="close-outline"></ion-icon></a>
+        </div>
+      <div class="mobile-menu" >
+        <ul>
+          <li class="menu-item" onclick="closeMenu()"><a href="#portfolio">Portfolio</a></li>
+          <li class="menu-item" onclick="closeMenu()"><a href="#about-me">About</a></li>
+          <li class="menu-item" onclick="closeMenu()"><a href="#contact-us">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+      <div id="welcome-menu" class="container">
         <a href="#" class="link"> <strong>Welcome</strong></a>
         <div class="nav-bar">
           <ul>
-            <li class="nav-list"><a href="#">Portfolio</a></li>
-            <li class="nav-list"><a href="#">About</a></li>
-            <li class="nav-list"><a href="#">Contact</a></li>
+            <li class="nav-list"><a href="#portfolio">Portfolio</a></li>
+            <li class="nav-list"><a href="#about-me">About</a></li>
+            <li class="nav-list"><a href="#contact-us">Contact</a></li>
           </ul>
         </div>
-        <nav>
-           <a href="#" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
-        </nav>
+        
+        <div>
+           <a href="javascript:openMenu()" class="menu-btn"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
       </div>
     </header>
     <main>
-      <section class="section-home">
+      <section id="porfolio" class="section-home">
         <div class="primary">
           <h1 class="heading-primary">Hey there. I’m Halijon </h1>
           <h1 class="heading-primary2">I’m a software developer</h1>
@@ -174,7 +187,7 @@
           </div>
         </div>
       </section>
-      <section class="about-myself">
+      <section id="about-me" class="about-myself">
         <div class="about-me">
           <h1 class="heading-about-me">About me</h1>
           <div class="supporting about">
@@ -228,7 +241,7 @@
           </div>
         </div></div>
       </section>
-      <section class="contact-us">
+      <section id="contact-us" class="contact-us">
         <div class="contact-us-div">
         <div class="text-contact">
           <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
@@ -284,5 +297,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
     </script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
