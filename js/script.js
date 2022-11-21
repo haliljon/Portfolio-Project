@@ -1,14 +1,17 @@
-const menu = document.querySelector("#menu");
-const hamburger = document.querySelector(".menu-btn");
+const menu = document.querySelector('#menu');
+const hamburger = document.querySelector('.menu-btn');
 
-menu.style.backgroundImage = "url(../image/Overlay.jpg)";
+menu.style.backgroundColor = '#ffffff';
 
 function openMenu() {
-  menu.style.display = "block";
-  hamburger.style.display = "none";
+  menu.style.display = 'block';
+  hamburger.style.display = 'none';
 }
 
 function closeMenu() {
-  menu.style.display = "none";
-  hamburger.style.display = "block";
+  menu.style.display = 'none';
+  hamburger.style.display = 'block';
 }
+
+document.querySelector('.menu-btn').addEventListener(openMenu());
+document.querySelector('#close-btn').addEventListener(closeMenu());

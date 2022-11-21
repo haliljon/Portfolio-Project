@@ -82,6 +82,7 @@ body {
   text-decoration: none;
   transition-duration: 1s;
 }
+
 #welcome-menu {
   align-items: center;
 }
@@ -104,16 +105,18 @@ body {
   height: 100%;
   width: 100%;
   margin-top: 30px;
-  background-size: 100%;
 }
+
 #close-btn {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
+
 .menu-item {
   font-size: 32px;
 }
+
 .nav-bar {
   visibility: hidden;
 }
