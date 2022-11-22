@@ -21,9 +21,9 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   height: 8rem;
-  padding: 0 0 0 3.2rem;
+  padding: 0 32px 0 3.2rem;
   font-size: 2rem;
 }
 
@@ -79,9 +79,42 @@ body {
 }
 
 .menu-btn {
-  padding: 0 30px;
   text-decoration: none;
   transition-duration: 1s;
+}
+
+#welcome-menu {
+  align-items: center;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+#menu {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#close-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-item {
+  font-size: 32px;
 }
 
 .nav-bar {
