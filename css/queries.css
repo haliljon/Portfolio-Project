@@ -156,6 +156,39 @@
   #text {
     width: 100%;
   }
+
+  .mainPopupDesktop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgb(193, 199, 208, 90%);
+  }
+  .popupDesktop {
+    width: 65%;
+    margin: auto;
+    margin-top: 122px;
+    background-color: #ffffff;
+    padding: 24px;
+    height: 750px;
+    overflow-y: scroll;
+  }
+
+  .imagePopupDesktop button {
+    float: right;
+    background-image: url(../image/Disabled.jpg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 14px;
+  }
+
+  .imagePopupDesktop img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
 
 @media (min-width: 1100px) {

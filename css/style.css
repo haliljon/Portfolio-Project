@@ -107,6 +107,56 @@ body {
   margin-top: 30px;
 }
 
+.mainPopup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgb(193, 199, 208, 90%);
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 16px;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 16px 16px 20px 16px;
+}
+
+.imagePopup {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+#close-btn1 {
+  position: absolute;
+  font-size: 50px;
+  top: 6%;
+  right: 9%;
+  color: #ffffff;
+}
+.content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 12px 0;
+}
+.textPopup {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0;
+}
+
+.btnPopup {
+  display: flex;
+  justify-content: space-between;
+}
+#livePopup,
+#sourcePopup {
+  white-space: nowrap;
+  margin: auto;
+}
+
 #close-btn {
   display: flex;
   flex-direction: column;
