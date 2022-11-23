@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   margin: 20px 16px;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 16px 16px 20px 16px;
 }
 
@@ -129,18 +129,21 @@ body {
   height: auto;
   margin: auto;
 }
+
 #close-btn1 {
   position: absolute;
   font-size: 50px;
   top: 6%;
   right: 9%;
-  color: #ffffff;
+  color: #fff;
 }
+
 .content h2 {
   font-size: 32px;
   font-weight: 600;
   margin: 12px 0;
 }
+
 .textPopup {
   font-size: 16px;
   font-weight: 400;
@@ -151,6 +154,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 #livePopup,
 #sourcePopup {
   white-space: nowrap;

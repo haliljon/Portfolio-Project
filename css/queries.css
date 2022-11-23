@@ -164,11 +164,12 @@
     top: 0;
     background-color: rgb(193, 199, 208, 90%);
   }
+
   .popupDesktop {
     width: 65%;
     margin: auto;
     margin-top: 122px;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 24px;
     height: 750px;
     overflow-y: scroll;
@@ -180,7 +181,7 @@
     background-size: cover;
     width: 40px;
     height: 40px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     border-radius: 8px;
     margin-bottom: 14px;
   }
@@ -189,6 +190,7 @@
     width: 100%;
     margin-bottom: 24px;
   }
+
   .components h2 {
     float: left;
     font-size: 32px;
@@ -196,23 +198,26 @@
     width: 64%;
     overflow-wrap: normal;
   }
+
   .components div {
     float: right;
     width: 30.5%;
   }
+
   .textPopupDesktop {
     font-size: 16px;
     font-weight: 400;
   }
+
   #flex-container {
     flex-direction: column;
     clear: both;
     align-content: flex-start;
   }
+
   .btnPopup {
     gap: 3px;
   }
-
 }
 
 @media (min-width: 1100px) {

@@ -1,38 +1,38 @@
-const menu = document.querySelector("#menu");
-const hamburger = document.querySelector(".menu-btn");
+const menu = document.querySelector('#menu');
+const hamburger = document.querySelector('.menu-btn');
 
-menu.style.backgroundColor = "#ffffff";
+menu.style.backgroundColor = '#ffffff';
 
 function openMenu() {
-  menu.style.display = "block";
-  hamburger.style.display = "none";
+  menu.style.display = 'block';
+  hamburger.style.display = 'none';
 }
 
 function closeMenu() {
-  menu.style.display = "none";
-  hamburger.style.display = "block";
+  menu.style.display = 'none';
+  hamburger.style.display = 'block';
 }
 
-document.querySelector(".menu-btn").addEventListener("click", openMenu());
-document.querySelector("#close-btn").addEventListener("click", closeMenu());
+document.querySelector('.menu-btn').addEventListener('click', openMenu());
+document.querySelector('#close-btn').addEventListener('click', closeMenu());
 
-///// *** POPUP WINDOW mobile *** /////
+/// // *** POPUP WINDOW mobile *** /////
 
-const main = document.querySelector("body");
-const section = document.createElement("section");
-const aboutMe = document.querySelector("#about-me");
+const main = document.querySelector('body');
+const section = document.createElement('section');
+const aboutMe = document.querySelector('#about-me');
 main.insertBefore(section, aboutMe);
-section.className = "works";
-const div = document.createElement("div");
+section.className = 'works';
+const div = document.createElement('div');
 div.innerHTML = `
 <div>
 <h1 class="recent-work">My Recent Works</h1>
 </div>
 <hr class="hr">`;
-const divGrids = document.createElement("div");
-divGrids.className = "outer-grids";
-const divGrid = document.createElement("div");
-divGrid.className = "outer-grid";
+const divGrids = document.createElement('div');
+divGrids.className = 'outer-grids';
+const divGrid = document.createElement('div');
+divGrid.className = 'outer-grid';
 divGrid.innerHTML = `<div class="picture"></div>
 <div class="outer-container">
   <div>
@@ -48,11 +48,11 @@ divGrid.innerHTML = `<div class="picture"></div>
   </div>
   <div><a href="#" onclick="checkMeadiaQuery()" class="btn-see-project">See project</a></div>
 </div>`;
-let divGrid1 = divGrid.cloneNode(true);
-let divGrid2 = divGrid.cloneNode(true);
-let divGrid3 = divGrid.cloneNode(true);
-let divGrid4 = divGrid.cloneNode(true);
-let divGrid5 = divGrid.cloneNode(true);
+const divGrid1 = divGrid.cloneNode(true);
+const divGrid2 = divGrid.cloneNode(true);
+const divGrid3 = divGrid.cloneNode(true);
+const divGrid4 = divGrid.cloneNode(true);
+const divGrid5 = divGrid.cloneNode(true);
 divGrids.append(divGrid1, divGrid, divGrid2, divGrid3, divGrid4, divGrid5);
 
 section.appendChild(div);
@@ -60,67 +60,69 @@ section.appendChild(divGrids);
 
 const dataObj = [
   {
-    id: "project-1",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-1',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
   {
-    id: "project-2",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-2',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
   {
-    id: "project-3",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-3',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
   {
-    id: "project-4",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-4',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
   {
-    id: "project-5",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-5',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
   {
-    id: "project-6",
-    title: "Multi-Post Stories Gain+Glory",
-    card_list: ["Ruby on rails", "html", "css", "javascript"],
-    image: "../image/SnapshootPortfolio.jpg",
+    id: 'project-6',
+    title: 'Multi-Post Stories Gain+Glory',
+    card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
+    image: '../image/SnapshootPortfolio.jpg',
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
-    demo: "",
+    demo: '',
   },
 ];
+section.appendChild(dataObj);
+section.removeChild(dataObj);
 
-//Add main Popup//
+// Add main Popup//
 
-const mainPopup = document.createElement("div");
-mainPopup.className = "mainPopup";
-const popup = document.createElement("div");
-popup.className = "popup";
+const mainPopup = document.createElement('div');
+mainPopup.className = 'mainPopup';
+const popup = document.createElement('div');
+popup.className = 'popup';
 popup.innerHTML = `
     <div>
       <img class="imagePopup" src="../image/SnapshootPortfolio.jpg" alt="image" />
@@ -161,16 +163,16 @@ mainPopup.appendChild(popup);
 
 function openProject() {
   main.appendChild(mainPopup);
-  const closePopup = document.querySelector("#close-btn1");
-  closePopup.addEventListener("click", () => {
+  const closePopup = document.querySelector('#close-btn1');
+  closePopup.addEventListener('click', () => {
     main.removeChild(mainPopup);
   });
 }
 
-///// *** POPUP WINDOW desktop *** /////
+/// // *** POPUP WINDOW desktop *** /////
 
-const mainPopupDesktop = document.createElement("div");
-mainPopupDesktop.className = "mainPopupDesktop";
+const mainPopupDesktop = document.createElement('div');
+mainPopupDesktop.className = 'mainPopupDesktop';
 mainPopupDesktop.innerHTML = `<div class="popupDesktop">
 <div class="imagePopupDesktop">
   <button class="exitBtn"></button>
@@ -209,8 +211,8 @@ mainPopupDesktop.innerHTML = `<div class="popupDesktop">
 
 function openProjectDesktop() {
   main.appendChild(mainPopupDesktop);
-  const closePopupDesktop = document.querySelector(".exitBtn");
-  closePopupDesktop.addEventListener("click", () => {
+  const closePopupDesktop = document.querySelector('.exitBtn');
+  closePopupDesktop.addEventListener('click', () => {
     main.removeChild(mainPopupDesktop);
   });
 }
@@ -222,3 +224,5 @@ function checkMeadiaQuery() {
     openProject();
   }
 }
+
+checkMeadiaQuery();
