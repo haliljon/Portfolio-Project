@@ -47,6 +47,15 @@ or to check the online version of the portfolio visit: https://haliljon.github.i
 - Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
 
+## Co-Authors
+
+👤 **Abigail Gyamfuaa Boateng**
+
+- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
+- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
+
+
 ## Show your support
 
 Please consider giving a ⭐️ if you like this project!
