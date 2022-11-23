@@ -114,8 +114,7 @@ const dataObj = [
     demo: '',
   },
 ];
-section.appendChild(dataObj);
-section.removeChild(dataObj);
+
 
 // Add main Popup//
 
@@ -225,4 +224,4 @@ function checkMeadiaQuery() {
   }
 }
 
-checkMeadiaQuery();
+
