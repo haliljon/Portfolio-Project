@@ -228,8 +228,10 @@ function closeProjectDesktop() {
 function checkMeadiaQuery() {
   if (window.innerWidth > 768) {
     openProjectDesktop();
+    mainPopupDesktop.style.display = 'block';
   } else {
     openProject();
+    mainPopup.style.display = 'block';
   }
 }
 
