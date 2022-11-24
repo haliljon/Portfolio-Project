@@ -1,45 +1,121 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# 📗 Table of Contents
 
-# Portfolio-Project
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 
-> In this project, I was able to:
->
-> - to use GitHub Pages to deploy web pages.
-> - to parse a Figma design to create a UI.
-> - to use Flexbox to place elements in the page.
-> - to build a personal portfolio site.
-> - to use images and backgrounds to enhance the look of the website.
-> - to use Media queries (breakpoints are `width:768px` and `width:1100px`)
-> - to use Grid, Flexbox and Float.
-> - to use animations.
-> - to use DOM manipulation.
 
-## Built With
+<!-- PROJECT DESCRIPTION -->
 
-- HTML, CSS, JavaScript
-- Technologies: Git, Gitflow, Linters, Github
-- Frameworks: Ionic
+# 📖 Portfolio-Project <a name="about-project"></a>
 
-## Presentation
+**Portfolio-Project** is my Portfolio, it is about the projects I have created.
 
-[Loom demo video](https://www.loom.com/share/6bb39d138660410b823144f5ba9fe644)
+## 🛠 Built With <a name="built-with"></a>
 
-## Getting Started
+### Tech Stack <a name="tech-stack"></a>
 
----
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-To get a local copy up and running follow these simple example steps. Copy the following link to the repository: https://github.com/haliljon/Portfolio-Project.git
+<details>
+  <summary>Programming languages</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+ </details>
+ 
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://github.com/">Github</a></li>
+    <li><a href="https://eslint.org/">Linters</a></li>
+    <li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow">Gitflow</a></li>
+  </ul>
+ </details>
+ <details>
+  <summary>Frameworks</summary>
+  <ul>
+    <li><a href="https://ionicframework.com/">Ionic</a></li>
+  </ul>
+ </details>
+<details>
+  <summary>Client</summary>
+ </details>
 
-or to check the online version of the portfolio visit: https://haliljon.github.io/Portfolio-Project/
+<details>
+  <summary>Server</summary>
+</details>
 
-- clone the repo: `git clone <repos link>` and then `cd <repos_name>`
+<details>
+<summary>Database</summary>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+- **User friendly UI**
+- **Popup windows**
+- **Animations**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+
+- [Loom demo video](https://www.loom.com/share/6bb39d138660410b823144f5ba9fe644)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- Have a computer and internet connection
-- Have `visual-studio code` or any other code editor installed on your computer.
+In order to run this project you need:
 
-## Authors
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```sh
+  cd my-folder
+  git clone https://github.com/haliljon/Portfolio-Project.git
+```
+
+
+
+### Deployment
+
+You can deploy this project using:
+
+https://haliljon.github.io/Portfolio-Project/
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 👥 Authors <a name="authors"></a>
+
+
 
 👤 **Haliljon Juraboev**
 
@@ -47,6 +123,29 @@ or to check the online version of the portfolio visit: https://haliljon.github.i
 - Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
 
-## Show your support
+
+👤 **Abigail Gyamfuaa Boateng**
+
+- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
+- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/haliljon/Portfolio-Project/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## ⭐️ Show your support <a name="support"></a>
 
 Please consider giving a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+

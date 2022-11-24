@@ -1,7 +1,7 @@
 /* Media queries */
 @media (min-width: 768px) {
   .all {
-    background-image: url("../image/Header-llustration-desktop.svg");
+    background-image: url('../image/Header-llustration-desktop.svg');
     background-size: 100%;
   }
 
@@ -77,7 +77,7 @@
   }
 
   .about-me {
-    background-image: url("../image/about-me-desktop.svg");
+    background-image: url('../image/about-me-desktop.svg');
     background-size: cover;
   }
 
@@ -175,7 +175,7 @@
     overflow-y: scroll;
   }
 
-  .imagePopupDesktop button {
+  .exitBtn {
     float: right;
     background-image: url(../image/Disabled.jpg);
     background-size: cover;

@@ -61,54 +61,72 @@ section.appendChild(divGrids);
 const dataObj = [
   {
     id: 'project-1',
-    title: 'Multi-Post Stories Gain+Glory',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
   },
   {
-    id: 'project-2',
-    title: 'Multi-Post Stories Gain+Glory',
+    id: 'project-1',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
   },
   {
-    id: 'project-3',
-    title: 'Multi-Post Stories Gain+Glory',
+    id: 'project-1',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
   },
   {
-    id: 'project-4',
-    title: 'Multi-Post Stories Gain+Glory',
+    id: 'project-1',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
   },
   {
-    id: 'project-5',
-    title: 'Multi-Post Stories Gain+Glory',
+    id: 'project-1',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
   },
   {
-    id: 'project-6',
-    title: 'Multi-Post Stories Gain+Glory',
+    id: 'project-1',
+    title: 'Keeping track of hundreds of components',
     card_list: ['Ruby on rails', 'html', 'css', 'javascript'],
-    image: '../image/SnapshootPortfolio.jpg',
+    image: [
+      '../image/SnapshootPortfolio.jpg',
+      '../image/SnapshootPortfolioDesktop.jpg',
+    ],
     about:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea ",
     demo: '',
@@ -116,105 +134,97 @@ const dataObj = [
 ];
 
 // Add main Popup//
+const buttonProject = document.querySelectorAll('.btn-see-project');
 
 const mainPopup = document.createElement('div');
 mainPopup.className = 'mainPopup';
-const popup = document.createElement('div');
-popup.className = 'popup';
-popup.innerHTML = `
-    <div>
-      <img class="imagePopup" src="../image/SnapshootPortfolio.jpg" alt="image" />
-      <a href="#" id="close-btn1"
-        ><ion-icon name="close-outline"></ion-icon
-      ></a>
-    </div>
-    <div class="content">
-      <h2>Keeping track of hundreds of components</h2>
-      <div id="flex-container" class="flex-container-div">
-        <ul class="flex-container">
-          <li class="flex-items"> Ruby on rails</li>
-          <li class="flex-items">css</li>
-          <li class="flex-items">JavaScript</li>
-          <li class="flex-items">html</li>
-        </ul>
+buttonProject.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    const popup = document.createElement('div');
+    popup.className = 'popup';
+    popup.innerHTML = `
+      <div>
+        <img class="imagePopup" src=${dataObj[index].image[0]} alt="image" />
+        <a href="#" id="close-btn1" onclick='closeProject()'
+          ><ion-icon name="close-outline"></ion-icon
+        ></a>
       </div>
-      <p class="textPopup"
-        >Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text
-        ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it 1960s with the releaLorem Ipsum is simply dummy
-        text of the printing and typesetting industry. Lorem Ipsum has been
-        the industry's standard dummy text ever since the 1500s, when an
-        unknown printer took a galley of type and scrambled it 1960s with
-        the relea</p
-      >
-    </div>
-    <div class="btnPopup"
-      ><a href="#" id="livePopup" class="btn-see-project"
-        >See Live
-        <ion-icon class="ion-icon" name="caret-forward-circle-outline"></ion-icon></a
-      ><a href="#" id="sourcePopup" class="btn-see-project"
-        >See Source <ion-icon class="ion-icon" name="logo-github"></ion-icon></a
-    ></div>
-  `;
-mainPopup.appendChild(popup);
+      <div class="content">
+        <h2>${dataObj[index].title}</h2>
+        <div id="flex-container" class="flex-container-div">
+        <ul class="flex-container" id="flex-container">${dataObj[
+    index
+  ].card_list
+    .map((elem) => `<li class="flex-items">${elem}</li>`)
+    .join('')}   
+        </ul>
+        </div>
+        <p class="textPopup"
+          >${dataObj[index].about}</p
+        >
+      </div>
+      <div class="btnPopup"
+        ><a href="#" id="livePopup" class="btn-see-project"
+          >See Live
+          <ion-icon class="ion-icon" name="caret-forward-circle-outline"></ion-icon></a
+        ><a href="#" id="sourcePopup" class="btn-see-project"
+          >See Source <ion-icon class="ion-icon" name="logo-github"></ion-icon></a
+      ></div>
+    `;
+    mainPopup.appendChild(popup);
+  });
+});
 
 function openProject() {
   main.appendChild(mainPopup);
-  const closePopup = document.querySelector('#close-btn1');
-  closePopup.addEventListener('click', () => {
-    main.removeChild(mainPopup);
-  });
+}
+function closeProject() {
+  mainPopup.style.display = 'none';
 }
 
 /// // *** POPUP WINDOW desktop *** /////
 
 const mainPopupDesktop = document.createElement('div');
 mainPopupDesktop.className = 'mainPopupDesktop';
-mainPopupDesktop.innerHTML = `<div class="popupDesktop">
-<div class="imagePopupDesktop">
-  <button class="exitBtn"></button>
-  <img src="../image/SnapshootPortfolioDesktop.jpg" alt="Project image" />
-</div>
-<div class="components">
-  <h2>Keeping track of hundreds of components</h2>
-  <div class="btnPopup"
-    ><a href="#" id="livePopup" class="btn-see-project"
-      >See Live
-      <ion-icon name="caret-forward-circle-outline"></ion-icon></a
-    ><a href="#" id="sourcePopup" class="btn-see-project"
-      >See Source <ion-icon name="logo-github"></ion-icon></a
-  ></div>
-</div>
-<div class="flex-container-div">
-  <ul class="flex-container" id="flex-container">
-    <li class="flex-items"> Codekit</li>
-    <li class="flex-items">GitHub</li>
-    <li class="flex-items">JavaScript</li>
-    <li class="flex-items">Bootstrap</li>
-    <li class="flex-items">Terminal</li>
-    <li class="flex-items">Codepen</li>
-  </ul>
-</div>
-<p class="textPopupDesktop"
-  >Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever
-  since the 1500s, when an unknown printer took a galley of type and
-  scrambled it 1960s with the releaLorem Ipsum is simply dummy text of
-  the printing and typesetting industry. Lorem Ipsum has been the
-  industry's standard dummy text ever since the 1500s, when an unknown
-  printer took a galley of type and scrambled it 1960s with the relea</p
->
-</div>`;
+buttonProject.forEach((element, index) => {
+  element.addEventListener('click', () => {
+    mainPopupDesktop.innerHTML = `<div class="popupDesktop">
+    <div class="imagePopupDesktop">
+      <button class="exitBtn" onclick='closeProjectDesktop()'></button>
+      <img src=${dataObj[index].image[1]} alt="Project image" />
+    </div>
+    <div class="components">
+      <h2>${dataObj[index].title}</h2>
+      <div class="btnPopup"
+        ><a href="#" id="livePopup" class="btn-see-project"
+          >See Live
+          <ion-icon name="caret-forward-circle-outline"></ion-icon></a
+        ><a href="#" id="sourcePopup" class="btn-see-project"
+          >See Source <ion-icon name="logo-github"></ion-icon></a
+      ></div>
+    </div>
+    <div class="flex-container-div">
+      <ul class="flex-container" id="flex-container">${dataObj[index].card_list
+    .map((elem) => `<li class="flex-items">${elem}</li>`)
+    .join('')}   
+      </ul>
+    </div>
+    <p class="textPopupDesktop"
+      >${dataObj[index].about}</p
+    >
+    </div>`;
+  });
+});
 
 function openProjectDesktop() {
   main.appendChild(mainPopupDesktop);
-  const closePopupDesktop = document.querySelector('.exitBtn');
-  closePopupDesktop.addEventListener('click', () => {
-    main.removeChild(mainPopupDesktop);
-  });
 }
 
+function closeProjectDesktop() {
+  mainPopupDesktop.style.display = 'none';
+}
+
+/* eslint-disable */
 function checkMeadiaQuery() {
   if (window.innerWidth > 768) {
     openProjectDesktop();
@@ -222,3 +232,12 @@ function checkMeadiaQuery() {
     openProject();
   }
 }
+
+function meadiaQueryClose() {
+  if (window.innerWidth > 768) {
+    closeProjectDesktop();
+  } else {
+    closeProject();
+  }
+}
+/* eslint-enable */
