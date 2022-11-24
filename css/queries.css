@@ -1,7 +1,7 @@
 /* Media queries */
 @media (min-width: 768px) {
   .all {
-    background-image: url("../image/Header-llustration-desktop.svg");
+    background-image: url('../image/Header-llustration-desktop.svg');
     background-size: 100%;
   }
 
@@ -77,7 +77,7 @@
   }
 
   .about-me {
-    background-image: url("../image/about-me-desktop.svg");
+    background-image: url('../image/about-me-desktop.svg');
     background-size: cover;
   }
 
@@ -155,6 +155,68 @@
   #email,
   #text {
     width: 100%;
+  }
+
+  .mainPopupDesktop {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgb(193, 199, 208, 90%);
+  }
+
+  .popupDesktop {
+    width: 65%;
+    margin: auto;
+    margin-top: 122px;
+    background-color: #fff;
+    padding: 24px;
+    height: 750px;
+    overflow-y: scroll;
+  }
+
+  .exitBtn {
+    float: right;
+    background-image: url(../image/Disabled.jpg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 14px;
+  }
+
+  .imagePopupDesktop img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .components h2 {
+    float: left;
+    font-size: 32px;
+    font-weight: 700;
+    width: 64%;
+    overflow-wrap: normal;
+  }
+
+  .components div {
+    float: right;
+    width: 30.5%;
+  }
+
+  .textPopupDesktop {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #flex-container {
+    flex-direction: column;
+    clear: both;
+    align-content: flex-start;
+  }
+
+  .btnPopup {
+    gap: 3px;
   }
 }
 
