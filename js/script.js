@@ -152,10 +152,10 @@ buttonProject.forEach((element, index) => {
         <h2>${dataObj[index].title}</h2>
         <div id="flex-container" class="flex-container-div">
         <ul class="flex-container" id="flex-container">${dataObj[
-          index
-        ].card_list
-          .map((elem) => `<li class="flex-items">${elem}</li>`)
-          .join('')}   
+    index
+  ].card_list
+    .map((elem) => `<li class="flex-items">${elem}</li>`)
+    .join('')}   
         </ul>
         </div>
         <p class="textPopup"
@@ -204,8 +204,8 @@ buttonProject.forEach((element, index) => {
     </div>
     <div class="flex-container-div">
       <ul class="flex-container" id="flex-container">${dataObj[index].card_list
-        .map((elem) => `<li class="flex-items">${elem}</li>`)
-        .join('')}   
+    .map((elem) => `<li class="flex-items">${elem}</li>`)
+    .join('')}   
       </ul>
     </div>
     <p class="textPopupDesktop"
