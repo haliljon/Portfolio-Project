@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ body {
 
 .section-home {
   padding: 0 2.8rem;
-  background-image: url("../image/header-illsutration-mobile@2x.svg");
+  background-image: url('../image/header-illsutration-mobile@2x.svg');
   background-size: cover;
 }
 
@@ -351,7 +351,7 @@ a:active {
 }
 
 .about-me {
-  background-image: url("../image/illustration-about-me-mobile-new.png");
+  background-image: url('../image/illustration-about-me-mobile-new.png');
   background-size: cover;
 }
 
@@ -424,8 +424,8 @@ input {
   padding: 1.5rem 1.6rem;
 }
 
-input[type="text"]::placeholder,
-input[type="email"]::placeholder {
+input[type='text']::placeholder,
+input[type='email']::placeholder {
   text-align: left;
 }
 
