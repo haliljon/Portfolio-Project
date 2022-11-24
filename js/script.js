@@ -140,9 +140,8 @@ const mainPopup = document.createElement('div');
 mainPopup.className = 'mainPopup';
 buttonProject.forEach((element, index) => {
   element.addEventListener('click', () => {
-    const popup = document.createElement('div');
-    popup.className = 'popup';
-    popup.innerHTML = `
+    mainPopup.innerHTML = `
+    <div class="popup">  
       <div>
         <img class="imagePopup" src=${dataObj[index].image[0]} alt="image" />
         <a href="#" id="close-btn1" onclick='closeProject()'
@@ -153,10 +152,10 @@ buttonProject.forEach((element, index) => {
         <h2>${dataObj[index].title}</h2>
         <div id="flex-container" class="flex-container-div">
         <ul class="flex-container" id="flex-container">${dataObj[
-    index
-  ].card_list
-    .map((elem) => `<li class="flex-items">${elem}</li>`)
-    .join('')}   
+          index
+        ].card_list
+          .map((elem) => `<li class="flex-items">${elem}</li>`)
+          .join('')}   
         </ul>
         </div>
         <p class="textPopup"
@@ -170,8 +169,8 @@ buttonProject.forEach((element, index) => {
         ><a href="#" id="sourcePopup" class="btn-see-project"
           >See Source <ion-icon class="ion-icon" name="logo-github"></ion-icon></a
       ></div>
+      </div>
     `;
-    mainPopup.appendChild(popup);
   });
 });
 
@@ -205,8 +204,8 @@ buttonProject.forEach((element, index) => {
     </div>
     <div class="flex-container-div">
       <ul class="flex-container" id="flex-container">${dataObj[index].card_list
-    .map((elem) => `<li class="flex-items">${elem}</li>`)
-    .join('')}   
+        .map((elem) => `<li class="flex-items">${elem}</li>`)
+        .join('')}   
       </ul>
     </div>
     <p class="textPopupDesktop"
