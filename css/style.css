@@ -443,3 +443,12 @@ input[type='email']::placeholder {
 .hr-footer {
   visibility: hidden;
 }
+
+/* /// Form validation/// */
+
+#sm-1,
+#sm-2,
+#sm-3,
+#sm-4 {
+  color: red;
+}
