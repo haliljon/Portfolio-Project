@@ -447,9 +447,11 @@ input[type='email']::placeholder {
 
 /* /// Form validation/// */
 
-#sm-1,
-#sm-2,
-#sm-3,
-#sm-4 {
+#small-1,
+#small-2,
+#small-3,
+#small-4 {
   color: red;
+}
+
 }
