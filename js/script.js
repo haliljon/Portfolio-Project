@@ -152,10 +152,10 @@ buttonProject1.forEach((element, index) => {
         <h2>${dataObj[index].title}</h2>
         <div id="flex-container" class="flex-container-div">
         <ul class="flex-container" id="flex-container">${dataObj[
-    index
-  ].card_list
-    .map((elem) => `<li class="flex-items">${elem}</li>`)
-    .join('')}   
+          index
+        ].card_list
+          .map((elem) => `<li class="flex-items">${elem}</li>`)
+          .join('')}   
         </ul>
         </div>
         <p class="textPopup"
@@ -205,8 +205,8 @@ buttonProject.forEach((element, index) => {
     </div>
     <div class="flex-container-div">
       <ul class="flex-container" id="flex-container">${dataObj[index].card_list
-    .map((elem) => `<li class="flex-items">${elem}</li>`)
-    .join('')}   
+        .map((elem) => `<li class="flex-items">${elem}</li>`)
+        .join('')}   
       </ul>
     </div>
     <p class="textPopupDesktop"
@@ -286,3 +286,28 @@ form.addEventListener('submit', (element) => {
     errorText.innerText = '';
   }
 });
+
+/******  Local Storage     ******/
+
+let btnGetInTouch = document.querySelector('.get-in-touch');
+
+btnGetInTouch.onclick = function () {
+  let dataStorage = {
+    'First Name': firstName.value,
+    'Last Name': lastName.value,
+    Email: email.value,
+    Text: textArea.value,
+  };
+  for (let i = 0; i < 4; i++) {
+    localStorage.setItem(
+      Object.keys(dataStorage)[i],
+      Object.values(dataStorage)[i]
+    );
+  }
+  console.log(localStorage);
+};
+
+firstName.value = localStorage.getItem('First Name');
+lastName.value = localStorage.getItem('Last Name');
+email.value = localStorage.getItem('Email');
+textArea.value = localStorage.getItem('Text');
