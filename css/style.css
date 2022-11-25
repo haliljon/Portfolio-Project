@@ -411,6 +411,7 @@ a:active {
 input {
   margin: 1.2rem 0;
   text-align: left;
+  display: flex;
 }
 
 #firstname,
@@ -442,4 +443,13 @@ input[type='email']::placeholder {
 
 .hr-footer {
   visibility: hidden;
+}
+
+/* /// Form validation/// */
+
+#small-1,
+#small-2,
+#small-3,
+#small-4 {
+  color: red;
 }

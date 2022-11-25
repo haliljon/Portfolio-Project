@@ -244,3 +244,45 @@ function meadiaQueryClose() {
 
 checkMeadiaQuery();
 meadiaQueryClose();
+
+// Validation FORMS //
+
+const form = document.querySelector('form');
+const firstName = document.querySelector('#firstname');
+const lastName = document.querySelector('#lastname');
+const email = document.querySelector('#email');
+const textArea = document.querySelector('#text');
+const errorFName = document.querySelector('#small-1');
+const errorLName = document.querySelector('#small-2');
+const errorEmail = document.querySelector('#small-3');
+const errorText = document.querySelector('#small-4');
+
+form.addEventListener('submit', (element) => {
+  if (firstName.value === '' || firstName.value == null) {
+    element.preventDefault();
+    errorFName.innerText = 'First name is required';
+  } else {
+    errorFName.innerText = '';
+  }
+  if (lastName.value === '' || lastName.value == null) {
+    element.preventDefault();
+    errorLName.innerText = 'Last name is required';
+  } else {
+    errorLName.innerText = '';
+  }
+  if (email.value === '' || email.value == null) {
+    element.preventDefault();
+    errorEmail.innerText = 'Email is required';
+  } else if (email.value.toLowerCase() !== email.value) {
+    element.preventDefault();
+    errorEmail.innerText = 'Please fill in your email address in lower case';
+  } else {
+    errorEmail.innerText = '';
+  }
+  if (textArea.value === '' || email.value == null) {
+    element.preventDefault();
+    errorText.innerText = 'Text is required';
+  } else {
+    errorText.innerText = '';
+  }
+});
