@@ -252,10 +252,10 @@ const firstName = document.querySelector('#firstname');
 const lastName = document.querySelector('#lastname');
 const email = document.querySelector('#email');
 const textArea = document.querySelector('#text');
-const errorFName = document.querySelector('#sm-1');
-const errorLName = document.querySelector('#sm-2');
-const errorEmail = document.querySelector('#sm-3');
-const errorText = document.querySelector('#sm-4');
+const errorFName = document.querySelector('#small-1');
+const errorLName = document.querySelector('#small-2');
+const errorEmail = document.querySelector('#small-3');
+const errorText = document.querySelector('#small-4');
 
 form.addEventListener('submit', (element) => {
   if (firstName.value === '' || firstName.value == null) {
